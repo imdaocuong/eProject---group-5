@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher-details2</title>
+    <link rel="stylesheet" href="./teacher-details.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="icon-font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="header__top">
+                <div class="header__top-left">
+                    <p>OUR TEACHER</p>
+                </div> 
+                <div class="header__top-right">
+                    <a href="index.html" class="back-home">
+                        <i class="fa fa-home"></i>
+                    </a>
+                    <i class="fa fa-chevron-right"></i>
+                    <span>OUR TEACHER</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="catalog-filter-subject">
+            <p>SHOWING 9-10 OF 10 RESULTS</p>
+            <span>
+                <label>
+                    <select id='menu'>
+                        <option value="ALL TEACHER">
+                            <a href="./teacher-details.html">ALL TEACHER</a>
+                        </option>
+                        <option value="SCIENCE PROFESSOR">
+                            <a href="./SCIENCE PROFESSOR-TEACHER.html">SCIENCE PROFESSOR</a>
+                        </option>
+                        <option value="TECHNOLOGY">
+                            <a href="./TECHNOLOGY-TEACHER.html">TECHNOLOGY</a>
+                        </option>
+                    </select>
+                </label>
+            </span>
+        </div>
+        <script>
+            document.getElementById('menu').addEventListener('change', function() {
+                val = $( "#menu" ).val();     
+                console.log(val)
+                if(val === 'ALL TEACHER') {
+                    window.open('./teacher-details.html', '_self');
+                    }
+                if(val === 'SCIENCE PROFESSOR') {
+                    window.open('./SCIENCE PROFESSOR-TEACHER.html', '_self');
+                    }
+                if(val === 'TECHNOLOGY') {
+                    window.open('./TECHNOLOGY-TEACHER.html', '_self');
+                }
+                });
+        </script>
+        <div class="teacher-list">
+            <div class="row">
+                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
+                    <div class="teacher-item">
+                        <div class="teacher-avatar">
+                            <img class = "img-fluid" src="./images/KATHY FOSTER.jpg" alt="KATHY FOSTER">
+                            <div class ="teacher-avatar_hover">
+                                <div class ="social-link">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="teacher-info">
+                        <a href="./teacher KATHY FOSTER.html" title="KATHY FOSTER">KATHY FOSTER</a>
+                         <p>TECHNOLOGY</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
+                    <div class="teacher-item">
+                        <div class="teacher-avatar">
+                            <img class = "img-fluid" src="./images/NICOLAS PETTER.jpg" alt="NICOLAS PETTER">
+                            <div class ="teacher-avatar_hover">
+                                <div class ="social-link">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="teacher-info">
+                            <a href="./teacher NICOLAS PETTER.html" title="NICOLAS PETTER">NICOLAS PETTER</a>
+                            <p>SCIENCE PROFESSOR</p>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-defauld">
+            <ul>
+                <li class="col-item-defauld">
+                    <a href="./teacher-details.html">
+                        <span>PREVIOUS</span>
+                    </a>
+                </li>
+                <li class="col1-item-defauld">
+                    <a href="./teacher-details.html">
+                        <span>1</span>
+                    </a>
+                </li>
+                <li style= "background-color: #ffbd33">
+                    <a href="./teacher-details2.html">
+                        <span class="two-col">2</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
