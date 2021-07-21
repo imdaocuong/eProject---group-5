@@ -132,7 +132,7 @@
           transition: background-color 0.6s ease;
         }
         
-        .active, .dot:hover {
+        .imgactive, .dot:hover {
           background-color: #717171;
         }
         
@@ -378,27 +378,54 @@
          margin-top: 25px;
          margin-left: 5px;
      }
-     #enroll__table{
+     #enroll__table, #price__table, #download__table{
          height: 83px;
-         background-color: #ff9800;
+         background-color: #30a8cc;
          color: white;
          border: solid white 1px;
-    
+         cursor: pointer;
         
      }
-     #enroll__table p{
+     #download__table{
+        background-color: #9261aa;
+     }
+     #price__table {
+        background-color: #ffbd33 ;
+        
+     }
+    #enroll__table p{
         margin-top: 25px;
         margin-left: 5px;
             }
+    #price__table p{
+        margin-top: 25px;
+        margin-left: 5px;
+            }     
+    #download__table p{
+        margin-top: 25px;
+        margin-left: 5px;
+            }  
+    #download__table a{
+        color: white;
+    }
      #enroll__table div{
          height: 55px;
+     }
+     #enroll__table a{
+         color: white;
+     }
+     #price__table:hover{
+         background-color: #9261aa;
      }
      #enroll__table:hover{
          background-color: rgb(240, 208, 27)
      }
+     #download__table:hover{
+         background-color: #30a8cc;
+     }
      #categories, #share h2{
          color: black;
-         margin-left: 20px;
+         padding-left:0px ;
          font-family: 'Oswald';
          font-size: 30px;
      }
@@ -422,3 +449,130 @@
     #table #info{
         background-color: #9261aa;
     }
+    
+    .accordion-button{
+        color: #717171!important;
+        font-size: 20px;
+    }
+    .accordion-body{
+        height: 40px;
+        padding-left: 30px;
+        padding-bottom: 15px;
+        font-size: 15px;
+
+    }
+    .accordion-body:hover{
+        background-color:#9261aa;
+        color: white;
+    }
+    .enroll {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(19, 19, 19, 0.671);
+        display: none;
+        z-index: 100;
+      }
+      .close-enroll {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 15px;
+        height: 15px;
+        background: #888;
+        color: #eee;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    .enroll.active {
+        display: flex;
+      }
+    .enroll-box {
+        width: 380px;
+        height: 480px;
+        position: relative;
+        margin: 6% auto;
+        background-color: #FF9800;
+        padding: 5px;
+        overflow: hidden;
+        border-radius: 5px;
+      }
+      .enroll-box h2{
+        font-family: "Oswald", sans-serif;
+        color: white;
+        text-align: center;
+      }
+      .enroll-input {
+        top: 70px;
+        left: 50px;
+        position: absolute;
+        width: 280px;
+        transition: 0.5s;
+        font-family: "Roboto";
+      }
+      .enroll-input select{
+        width: 280px;
+        transition: 0.5s;
+        font-family: "Roboto";
+        height: 36px;
+        background-color: white;
+      }
+      .enroll-input .enroll-attribute{
+        margin-bottom: 5px !important;
+        color: black;
+      }
+      
+      .submit-button {
+        width: 85%;
+        color: white;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        background: #9261aa;
+        border: 0;
+        outline: none;
+        border-radius: 30px;
+        border-top-left-radius: 30px!important;
+        border-bottom-left-radius: 30px!important;
+        margin-top: 35px;
+        left: 20px;
+      }
+      .enroll-box div{
+         font-family: "Oswald";   
+         font-size: 15px;
+       }
+       .input-field {
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #999;
+        outline: none;
+        background: white;
+      }
+      .email-box {
+        width: 35px;
+        height:35px;
+        border-radius: 50%;
+        font-size: 20px;
+        background-color: #9261aa;
+        
+        position: absolute;
+        z-index: 2;
+        bottom: 33px;
+        right: 20px;
+      }
+      .email-box i{
+        color: white;
+        margin: 8px;
+      }
+      .email-box:hover i{
+          color: #30a8cc;
+          
+      }
