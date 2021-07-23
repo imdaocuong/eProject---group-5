@@ -40,7 +40,7 @@ body{
     line-height: 70px;
     text-align: center;
     padding-right: 4rem;
-    background-color: rgb(166, 92, 235);
+    background-color: #9261aa;
     font-family: 'oswald',sans-serif;
 }
 .pages__title-left::after{
