@@ -68,7 +68,7 @@
   margin-left: 0.5rem;
 }
 .header__nav-link:hover{
-    color: white;
+    color: white!important;
 }
 .header__nav-link::after {
   content: "";
