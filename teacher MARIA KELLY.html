@@ -17,27 +17,223 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="header.css">
-	<link rel = "stylesheet" href = "./assets/css/base.css"></link>
+	  <link rel = "stylesheet" href = "./assets/css/base.css"></link>
     <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
-	<link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
+	  <link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
 </head>
     <body>
+	   <header class="header">
+        <div class="row-exe">
+          <div class="menu__toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img src="./img/Picture8.png" alt="Ex_Logo" class="header__logo-img"/>
+            </a>  
+          </div>
+          <div class="header__menu">
+            <div class="header__menu-details">
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link">HOME</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="blog.html" class="header__nav-link">BLOG</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="allcourse1.html"
+                      class="header__nav-link"
+                    >
+                      <span>COURSE</span>
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="nav-child__list">
+                      <li class="nav-child__item">
+                        <a
+                          href="course_business.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>BUSINESS MANAGEMENT</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="course_graphic.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>GRAPHIC DESIGN</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="course_law.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>LAW ECONOMIC</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="course_mobile.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>MOBILE APPS DEVELOP</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="course_web design.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>WEB DESIGN</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="event.html" class="header__nav-link">EVENTS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="SCIENCE PROFESSOR-TEACHER.html" class="header__nav-link">TEACHERS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="About us.html"
+                      class="header__nav-link"
+                      >ABOUT</a
+                    >
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="Contact us.html"
+                      class="header__nav-link"
+                      >CONTACT</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="menu__icon">
+                <div class="search__icon">
+                 <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="lock__icon" id="show-login">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-mobile__nav">
+            <form action="" class="mobile__searchbar">
+              <input type="text" placeholder="Search..." />
+              <button class="btn btn-searchbar">
+                <i class="fa fa-search"  aria-hidden="true"></i>
+              </button>
+            </form>
+            <nav class="mobile-nav">
+              <ul class="mobile__nav-list">
+                <li class="mobile__nav-item">
+                  <a href="index.html" class="mobile__nav-link">HOME</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="blog.html" class="mobile__nav-link">BLOG</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <button class="mobile__nav-link">
+                    <span>COURSE</span>
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                  <ul class="mobile__nav-child-list">
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="course_business.html"
+                        class="mobile__nav-child-link"
+                        >BUSINESS MANAGEMENT</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="course_graphic.html"
+                        class="mobile__nav-child-link"
+                        >GRAPHIC DESIGN</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="course_law.html"
+                        class="mobile__nav-child-link"
+                        >LAW ECONOMIC</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="course_mobile.html"
+                        class="mobile__nav-child-link"
+                        >MOBILE APPS DEVELOP</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="course_web design.html"
+                        class="mobile__nav-child-link"
+                        >WEB DESIGN</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="event.html" class="mobile__nav-link">EVENTS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="teacher.html" class="mobile__nav-link">TEACHERS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="About us.html" class="mobile__nav-link">ABOUT</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="Contact us.html" class="mobile__nav-link">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="overlay"></div>
+      <div class="small-info">
+        <div class="row-exe">
+          <a href="mailto:infoacademica@gmail.com" class="small-info__email">
+            <i class="fab fa-telegram-plane"></i>
+            <span>EXCELLENTCOACHING@gmail.com</span>
+          </a>
+          <p class="calendar-info">
+            <i class="far fa-clock"></i>
+            <span>MON - SAT: 9:00 - 18:00</span>
+          </p>
+        </div>
+      </div>     
         <div class="container-fluid">
-            <div class="header">
-                <div class="header__top">
-                    <div class="header__top-left">
+            <div class="pages__title">
+                <div class="pages__title-top">
+                    <div class="pages__title-left">
                         <p>OUR TEACHER</p>
                     </div> 
-                    <div class="header__top-right">
+                    <div class="pages__title-right">
                         <a href="index.html" class="back-home">
                             <i class="fa fa-home"></i>
                         </a>
-                        <a href="/teacher-details.html" class="name-details">
+                        <a href="teacher-details.html" class="name-details">
                         <i class="fa fa-chevron-right">
-                        <span style="margin-left: 10px; font-size: 1.2rem;">MARIA KELLY</span>
+                        <span style="margin-left: 10px; font-size: 1.2rem;">OUR TEACHER</span>
                         </i></a>
                         <i class="fa fa-chevron-right"></i>
-                            <span style="font-size: 13px; margin-left: 10px;">FATMA HASSAN</span> 
+                        <span style="font-size: 13px; margin-left: 10px;">MARIA KELLY</span> 
                     </div>
                 </div>
             </div>
