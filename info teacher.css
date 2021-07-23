@@ -20,6 +20,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    display:inline-block;
 }
 .bottom-left-info{
     background: rgb(50, 59, 71);
