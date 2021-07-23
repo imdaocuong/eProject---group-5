@@ -40,6 +40,7 @@
 }
 .main-icon:hover{
     color: #FFF;
+    cursor: pointer;
 }
 
 .blog-post h4{
@@ -104,16 +105,19 @@
     z-index: 10000;
     cursor: pointer;
 }
+
 .play{
     width: 560px;
     height: 315px;
-    top: 20%;
-    left: 15%;
-    position: relative;
+    padding: 20px, 20px;
+    position: absolute;
+    top: 30%;
+    left:25%;
 }
-.video.active{
+.video .active{
     display: flex;
 }
+
 @media screen and (max-width:768px){
     #side-bar{
         display: none;
@@ -125,4 +129,28 @@
         top: 35%;
         left: 38%;
     }
+}
+.share .share-blog #fb:hover a{
+    background-color: #3B5998;
+    color: white;
+}
+.share .share-blog #tw:hover a{
+    background: #55ACEE;
+  color: white;
+}
+.share .share-blog #gg:hover a{
+    background: #dd4b39;
+  color: white;
+}
+.share .share-blog #pt:hover a{
+    background: #cb2027;
+    color: white;
+}
+.share .share-blog #lk:hover a{
+    background: #007bb5;
+  color: white;
+}
+.share .share-blog #tb:hover a{
+    background: #2c4762;
+  color: white;
 }

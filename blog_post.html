@@ -27,17 +27,7 @@
     <!--  -->
     <link rel = "stylesheet" href = "./css/blog.css"></link>
     <link rel = "stylesheet" href = "./css/blogpost.css"></link>
-    <script>
-        const btn_OpenVideo = document.querySelector("#show-video");
-        const video__inner  = document.querySelector(".video");
-        const btn_CloseVideo = document.querySelector(".video");
-        btn_OpenVideo.addEventListener("click",function(){
-            video__inner.classList.add("active");
-        })
-        btn_CloseVideo.addEventListener("click",function(){
-            video__inner.classList.remove("active");
-        })
-    </script>
+    
     <script>
         function SelectRedirect(){
             
@@ -343,20 +333,20 @@
 <!--Video-->
     <div class="video">
         <div class ="background">
-            <div class = "play"><iframe width="560" height="315" src="https://www.youtube.com/embed/2qfkVXhX_54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div class = "play"><iframe width="560" height="315" src="https://www.youtube.com/embed/2qfkVXhX_54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
     <div class="container" align=center>
         <div class="row" style="padding-right: 15px;padding-left: 15px;" align=left>
-           <div class = "col-md-8 col-xl-8" style="padding-right:5px ;" >
+           <div class = "col-md8 col-xl-8" style="padding-right:5px ;">
             <div class = "post-box">
                 <a href="#"><img class = "img-fluid"src = "./img/Blog/blog-01.jpg"></a>
-                <div class="video-hover" id = "show-video"></div>
+                <div class="video-hover" ></div>
                 <div class = "main-icon" ><i class="far fa-play-circle"></i></div>
             </div>
         </br>
     </br>
-            <div class = "blog-post">
+            <div class = "blog-post"id = "show-video">
                 <h4>FRIENDLY SCHOOLS OPEN WITH MODERN TEACHING METHODS</h4>
                 <p><i class="fas fa-user"></i>PHOEBE DAO&emsp;<i class="fas fa-comments"></i>0&emsp;<i class="far fa-eye"></i>2108</p>
             </br>
@@ -650,7 +640,9 @@
           </div>
         </div>
       </footer>
-      <script src="assets/js/login_form.js"></script>
+      <script src = "assets/js/login_form.js">
+        
+    </script>
       <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");

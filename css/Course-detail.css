@@ -574,3 +574,45 @@
           color: #30a8cc;
           
       }
+      .share .share-blog #fb:hover a{
+        background-color: #3B5998;
+        color: white;
+    }
+    .share .share-blog #tw:hover a{
+        background: #55ACEE;
+      color: white;
+    }
+    .share .share-blog #gg:hover a{
+        background: #dd4b39;
+      color: white;
+    }
+    .share .share-blog #pt:hover a{
+        background: #cb2027;
+        color: white;
+    }
+    .share .share-blog #lk:hover a{
+        background: #007bb5;
+      color: white;
+    }
+    .share .share-blog #tb:hover a{
+        background: #2c4762;
+      color: white;
+    }.share-blog a{
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 50%;
+        background-color: #f3f3f3;
+        color: #868686;
+        display: block;
+        text-align: center;
+        margin: 0;
+        margin-right: 10px!important;
+        font-size: 18px;
+    }
+    .share{
+        margin: 20px 0;
+    }
+    .share-blog li{
+        display: inline-block;
+    }
