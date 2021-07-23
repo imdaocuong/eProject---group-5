@@ -67,6 +67,9 @@
   font-size: 1.4rem;
   margin-left: 0.5rem;
 }
+.header__nav-link:hover{
+    color: white;
+}
 .header__nav-link::after {
   content: "";
   position: absolute;

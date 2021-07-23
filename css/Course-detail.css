@@ -434,12 +434,12 @@
     #price-list-button{
         
     } 
-    .schedule p{
+    .schedule,.price p{
         
         color: white;
         font-family: "Roboto";
     }
-    .schedule p:hover{
+    .schedule,.price p:hover{
         color: rgb(240, 208, 27)
     };
     }
