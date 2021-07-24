@@ -40,7 +40,7 @@ body{
     line-height: 70px;
     text-align: center;
     padding-right: 4rem;
-    background-color: rgb(166, 92, 235);
+    background-color: #9261aa;
     font-family: 'oswald',sans-serif;
 }
 .pages__title-left::after{
@@ -251,9 +251,10 @@ margin-bottom: 0;
 .item-defauld{
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top: 15px;
+    margin: 20px;
     text-transform: uppercase;
     font-size: 14px;
+    
 }
 .item-defauld ul li{
     display: inline-block;
