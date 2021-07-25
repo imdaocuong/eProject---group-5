@@ -16,6 +16,7 @@
     height: 360px;
     display: flex;
     align-items: flex-end;
+    margin-top: -30px;
 }
 .pages__title-top{
     width: 100%;
@@ -55,6 +56,7 @@
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'oswald',sans-serif;
+    letter-spacing: 9px;
 }
 .pages__title-right{
     position: relative;
