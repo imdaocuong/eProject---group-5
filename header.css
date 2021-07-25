@@ -28,9 +28,9 @@
 .pages__title-left{
     position: relative;
     z-index: 2;
-    height: 70px;
-    width:30% ;
-    line-height: 70px;
+    height: 88px;
+    width: 36%;
+    line-height: 88px;
     text-align: center;
     padding-right: 4rem;
     background-color: #9261aa;
@@ -42,7 +42,7 @@
     top: 0;
     left: 100%;
     border-left: solid 40px #9261aa;
-    border-top: solid 70px transparent;
+    border-top: solid 88px transparent;
 }
 .pages__title-right::after{
     position: absolute;
@@ -50,18 +50,19 @@
     top: 0;
     left: 100%;
     border-left: solid 40px #ffbd33;
-    border-top: solid 50px transparent;
+    border-top: solid 66px transparent;
 }
 .pages__title-left p{
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'oswald',sans-serif;
     letter-spacing: 9px;
+    font-weight: 500;
 }
 .pages__title-right{
     position: relative;
-    height: 50px;
-    line-height: 50px;
+    height: 66px;
+    line-height: 66px;
     width: 55%;
     padding-left: 3rem;
     background-color: #ffbd33;
@@ -79,11 +80,15 @@
     font-family: inherit;
     display: inline-block;
     margin: inherit;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 400;
 }
 .pages__title-right a.back-home{
     color: white;
     font-size: 15px;
     text-decoration: none;
+    margin-left: 20px;
 }
 .pages__title-right .Ourteacher{
     color: white;
@@ -97,7 +102,7 @@
 .pages__title i:not(.back-home i){
     font-size: 10px;
     margin: 6px 0;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .name-details{
