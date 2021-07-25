@@ -317,6 +317,7 @@ h5{
     
     .pages__title-left{
         text-align: left;
+        padding-left: 4rem;
     }
     .pages__tiile-top .pages__title-left{
         width: 100%!important;
