@@ -767,7 +767,7 @@
   background: url(../../image/about_tab-bg.jpg);
   background-position: center center;
   background-size: cover;
-  height: 90vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -776,7 +776,7 @@
 .testimonials::after {
   position: absolute;
   content: "";
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   top: 0;
   left: 0;
