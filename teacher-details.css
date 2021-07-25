@@ -311,21 +311,22 @@ h5{
     font-family: 'Oswald',sans-serif;
 }
 @media only screen and (max-width: 780px){
-    .header__top{
+    .pages__title-top{
         flex-wrap: wrap;
     }
     
-    .header__top-left{
+    .pages__title-left{
         text-align: left;
+        padding-left: 4rem;
     }
-    .header__top .header__top-left{
+    .pages__tiile-top .pages__title-left{
         width: 100%!important;
         padding-left: 1.5rem;
     }
-    .header__top-right span{
+    .pages__title-right span{
        max-width: 100%;
     }
-    .header__top-left::after,.header__top-right::after{
+    .pages__title-left::after,.pages__title-right::after{
         display: none;
     }
 }
@@ -341,10 +342,10 @@ h5{
     }
 }
 @media  screen and (max-width: 200px) {
-    .header__top-left p{
+    .pages__title-left p{
         font-size: 26px;
     }
-    .header__top-right span{
+    .pages__title-right span{
         font-size: 18px;
     }
 }
