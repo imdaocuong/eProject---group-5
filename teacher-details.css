@@ -65,6 +65,7 @@ body{
     margin-bottom: 1rem;
     font-family: 'oswald',sans-serif;
     letter-spacing: 9px;
+    font-weight: 500;
 }
 .pages__title-right{
     position: relative;
