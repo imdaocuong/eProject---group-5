@@ -329,6 +329,17 @@ h5{
         display: none;
     }
 }
+@media only screen and (max-width:576px){
+    .pages__title-top{
+    flex-wrap:wrap;
+    }
+    .pages__title-top >*{
+    flex-basis:100%;
+    }
+    .pages__title-left::after,.pages__title-right::after{
+    display:none;
+    }
+}
 @media  screen and (max-width: 200px) {
     .header__top-left p{
         font-size: 26px;
