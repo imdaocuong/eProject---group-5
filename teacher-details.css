@@ -48,7 +48,7 @@ body{
     content: "";
     top: 0;
     left: 100%;
-    border-left: solid 40px rgb(166, 92, 235);
+    border-left: solid 40px #9261aa;
     border-top: solid 70px transparent;
 }
 .pages__title-right::after{
