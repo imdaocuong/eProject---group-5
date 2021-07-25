@@ -114,6 +114,7 @@ body{
 }
 .name-details{
     color: white;
+    text-decoration: none;
 }
 @media only screen and (max-width: 780px){
     .header__top{
@@ -350,6 +351,9 @@ h5{
     }
 }
 
+    .header__nav-item .header__nav-link:hover{
+        text-decoration: none;
+    }
 
 
 
