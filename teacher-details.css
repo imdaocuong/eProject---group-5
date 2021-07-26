@@ -14,7 +14,9 @@ body{
 
 .container-fluid{
     margin: 0;
-    padding: 30px 0;
+    padding-bottom: 30px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
 .pages__title{
     background-image: url("./images/bg-page-title.jpg");
@@ -24,7 +26,6 @@ body{
     height: 360px;
     display: flex;
     align-items: flex-end;
-    margin-top: -30px;
 }
 .pages__title-top{
     width: 100%;
@@ -80,14 +81,7 @@ body{
     font-size: 15px;
     margin-left: 10px;
     color: #9261aa;
-    line-height: 1.2;
-    letter-spacing: .02em;
     vertical-align: middle;
-    max-height: none;
-    overflow: inherit;
-    font-family: inherit;
-    display: inline-block;
-    margin: inherit;
     margin-left: 10px;
     letter-spacing: 3px;
     font-weight: 400;
@@ -102,11 +96,6 @@ body{
     color: white;
     text-decoration: none;
 }
-.pages__title-right .Ourteacher:hover span{
-    color: rgb(156, 95, 156);
-    margin-left: 10px; 
-    font-size: 1.2rem;
-}
 .pages__title i:not(.back-home i){
     font-size: 10px;
     margin: 6px 0;
@@ -114,6 +103,10 @@ body{
 }
 .name-details{
     color: white;
+    text-decoration: none;
+}
+.name-details:hover{
+    text-decoration: none;
 }
 @media only screen and (max-width: 780px){
     .header__top{
@@ -350,6 +343,9 @@ h5{
     }
 }
 
+    .header__nav-item .header__nav-link:hover{
+        text-decoration: none;
+    }
 
 
 

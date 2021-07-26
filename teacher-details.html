@@ -14,10 +14,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel = "stylesheet" href = "./assets/css/base.css"></link>
     <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
-    <link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
+    <link rel="stylesheet" href="./assets/css/Home/homeresponsive.css"/>
 </head>
 <body>
-     <header class="header">
+    <header class="header">
         <div class="row-exe">
           <!-- menu toggle -->
           <div class="menu__toggle">
@@ -106,7 +106,7 @@
                     <a href="event.html" class="header__nav-link">EVENTS</a>
                   </li>
                   <li class="header__nav-item">
-                    <a href="SCIENCE PROFESSOR-TEACHER.html" class="header__nav-link">TEACHERS</a>
+                    <a href="teacher-details.html" class="header__nav-link">TEACHERS</a>
                   </li>
                   <li class="header__nav-item">
                     <a
@@ -130,7 +130,9 @@
                  <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
                 <div class="lock__icon" id="show-login">
-                  <i class="fas fa-user"></i>
+                  <a href="./Login.html">
+                    <i class="fas fa-user"></i> 
+                  </a>
                 </div>
               </div>
             </div>
@@ -201,7 +203,7 @@
                   <a href="event.html" class="mobile__nav-link">EVENTS</a>
                 </li>
                 <li class="mobile__nav-item">
-                  <a href="teacher.html" class="mobile__nav-link">TEACHERS</a>
+                  <a href="./teacher-details.html" class="mobile__nav-link">TEACHERS</a>
                 </li>
                 <li class="mobile__nav-item">
                   <a
@@ -221,7 +223,7 @@
             </nav>
           </div>
         </div>
-      </header>
+    </header>
       <div class="overlay"></div>
       <!-- ------------------- -->
       <!-- small info -->
@@ -530,6 +532,72 @@
     </div>
 	<br>
 	<br>
+   <!-- movetotop -->
+   <div class="movetotop">
+    <a href="#top">
+      <i class="fas fa-arrow-circle-up"></i>
+    </a>
+  </div>
+  <div class="footer-img__larger">
+    <div class="footer-img__larger-inner">
+      <img src="" alt="" class="img-footer-larger" />
+      <div class="close__imglarger">
+        <i class="fas fa-times-circle"></i>
+      </div>
+      <div class="larger-btns">
+        <i class="fa fa-chevron-left btn-prev-larger"></i>
+        <i class="fas fa-th-large btn-larger-gallery"></i>
+        <i class="fa fa-chevron-right btn-next-larger"></i>
+      </div>
+    </div>
+    <div class="larger-list__img">
+      <div class="larger-list__img-inner">
+        <div class="close__larger-img">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="color-header"></div>
+        <div class="gallery-larger-img">
+          <img
+            src="assets/image/largerImg/largerimg1.jpg"
+            alt="footerimg1"
+          />
+          <img
+            src="assets/image/largerImg/largerimg2.jpg"
+            alt="footerimg2"
+          />
+          <img
+            src="assets/image/largerImg/largerimg3.jpg"
+            alt="footerimg3"
+          />
+          <img
+            src="assets/image/largerImg/largerimg4.jpg"
+            alt="footerimg4"
+          />
+          <img
+            src="assets/image/largerImg/largerimg5.jpg"
+            alt="footerimg5"
+          />
+          <img
+            src="assets/image/largerImg/largerimg6.jpg"
+            alt="footerimg6"
+          />
+          <img
+            src="assets/image/largerImg/largerimg7.jpg"
+            alt="footerimg7"
+          />
+          <img
+            src="assets/image/largerImg/largerimg8.jpg"
+            alt="footerimg8"
+          />
+          <img
+            src="assets/image/largerImg/largerimg9.jpg"
+            alt="footerimg9"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
 <footer class="footer">
         <div class="row-exe">
           <div class="footer-details">
@@ -654,7 +722,6 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="assets/js/slider.js"></script>
-    <script src="assets/js/login_form.js"></script>
     <script>
       var x = document.getElementById("login");
       var y = document.getElementById("register");
