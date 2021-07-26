@@ -69,13 +69,15 @@ option {
 .image-box span {
   position: absolute;
   background-color: gold;
-  width: 40px;
-  height: 20px;
+  width: 45px;
+  height: 25px;
+  line-height: 24px;
   top: 30px;
   right: 10px;
+  border-radius: 3px ;
   text-align: center;
   color: white;
-  font-family: "Oswald";
+  font-family: "Roboto";
   z-index: 2;
 }
 
