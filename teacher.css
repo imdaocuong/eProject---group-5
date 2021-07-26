@@ -348,5 +348,8 @@ h5{
     }
 
 
-
+.small-info__email:hover{
+    text-decoration: none;
+    color: #9261aa;
+}
 

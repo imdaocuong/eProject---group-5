@@ -1,23 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teacher-details</title>
+    <title>AMANDA MEELE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="teacher-details.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./icon-font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="owl-carousel.css">
+    <link rel="stylesheet" href="info teacher.css">
+    <link rel="stylesheet" href="./teacher.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel = "stylesheet" href = "./assets/css/base.css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel = "stylesheet" href = "./assets/css/base.css"></link>
     <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
-    <link rel="stylesheet" href="./assets/css/Home/homeresponsive.css"/>
+	<link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
 </head>
-<body>
-    <header class="header">
+    <body>
+      <header class="header">
         <div class="row-exe">
           <!-- menu toggle -->
           <div class="menu__toggle">
@@ -106,7 +112,7 @@
                     <a href="event.html" class="header__nav-link">EVENTS</a>
                   </li>
                   <li class="header__nav-item">
-                    <a href="teacher-details.html" class="header__nav-link">TEACHERS</a>
+                    <a href="./teacher.html" class="header__nav-link">TEACHERS</a>
                   </li>
                   <li class="header__nav-item">
                     <a
@@ -203,7 +209,7 @@
                   <a href="event.html" class="mobile__nav-link">EVENTS</a>
                 </li>
                 <li class="mobile__nav-item">
-                  <a href="./teacher-details.html" class="mobile__nav-link">TEACHERS</a>
+                  <a href="./teacher.html" class="mobile__nav-link">TEACHERS</a>
                 </li>
                 <li class="mobile__nav-item">
                   <a
@@ -223,75 +229,209 @@
             </nav>
           </div>
         </div>
-    </header>
+      </header>
       <div class="overlay"></div>
-      <!-- ------------------- -->
-      <!-- small info -->
       <div class="small-info">
         <div class="row-exe">
           <a href="mailto:infoacademica@gmail.com" class="small-info__email">
             <i class="fab fa-telegram-plane"></i>
-            <span>EXCELLENTCOACHING@gmail.com</span>
+            <span>support@excellentcoaching.com</span>
           </a>
           <p class="calendar-info">
             <i class="far fa-clock"></i>
             <span>MON - SAT: 9:00 - 18:00</span>
           </p>
         </div>
-      </div>
-     <div class="container-fluid">
-        <div class="pages__title">
-            <div class="pages__title-top">
-                <div class="pages__title-left">
-                    <p>OUR TEACHER</p>
-                </div> 
-                <div class="pages__title-right">
-                    <a href="./index.html" class="back-home">
-                        <i class="fa fa-home"></i>
-                    </a>
-                    <i class="fa fa-chevron-right"></i>
-                    <span>OUR TEACHER</span>
+      </div>   
+        <div class="container-fluid">
+            <div class="pages__title">
+                <div class="pages__title-top">
+                    <div class="pages__title-left">
+                        <p>OUR TEACHER</p>
+                    </div> 
+                    <div class="pages__title-right">
+                        <a href="index.html" class="back-home">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <i class="fa fa-chevron-right"></i>
+			                  <a href="teacher-details.html" class="name-details">	
+                            <span>OUR TEACHER</span>
+                        </a>   
+                        <i class="fa fa-chevron-right"></i>
+                            <span style="font-size: 12px; margin-left: 8px;">AMANDA MEELE</span> 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="catalog-filter-subject">
-            <p>SHOWING 1-8 OF 10 RESULTS</p>
-            <span>
-                <label>
-                    <select id='menu'>
-                        <option value="ALL TEACHER">
-                            <a href="./teacher-details.html">ALL TEACHER</a>
-                        </option>
-                        <option value="SCIENCE PROFESSOR">
-                            <a href="./SCIENCE-PROFESSOR-TEACHER.html">SCIENCE PROFESSOR</a>
-                        </option>
-                        <option value="TECHNOLOGY">
-                            <a href="./TECHNOLOGY-TEACHER.html">TECHNOLOGY</a>
-                        </option>
-                    </select>
-                </label>
-            </span>
-        </div>
-        <script>
-            document.getElementById('menu').addEventListener('change', function() {
-                val = $( "#menu" ).val();     
-                console.log(val)
-                if(val === 'ALL TEACHER') {
-                    window.open('./teacher-details.html', '_self');
-                    }
-                if(val === 'SCIENCE PROFESSOR') {
-                    window.open('./SCIENCE-PROFESSOR-TEACHER.html', '_self');
-                    }
-                if(val === 'TECHNOLOGY') {
-                    window.open('./TECHNOLOGY-TEACHER.html', '_self');
-                }
-                });
-        </script>
-        <div class="teacher-list">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
+                <div class="col-lg-3 col-md-4 col-sm-5 col-12">
+                    <div class="top-left-img">
+                        <img src="./images/AMANDA MC MEELE.jpg" alt="AMANDA MC MEELE">
+                        <h3>AMANDA MEELE</h3>
+                        <p>SCIENCE PROFESSOR</p>
+                    </div>
+                    <div class="bottom-left-info">
+                        <ul class="personal-info">
+                            <li>
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 02/06/1994
+                            </li>
+                            <li>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                 Female
+                            </li>
+                            <li>
+                                 <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                 0907539063
+                            </li>
+                            <li>
+                                 <i class="fa fa-envelope" aria-hidden="true"></i>
+                                 AMANDA MEELE@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                Hanoi, VietNam
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+                <div class="col-lg-9 col-md-8 col-sm-7 col-12">
+                    <div class="content-right"> 
+                        <div class="title-name">
+                            <h3>AMANDA MEELE</h3>
+                            <p>SCIENCE PROFESSOR</p>
+                        </div>
+                        <div class="paragraph"> 
+                            <h5>Teaching methods</h5>    
+                            <p>Equip students with skills and methods, thereby building their ability to improvise and develop new thinking abilities. This is a prerequisite for responding to changes in the structure/method/content of upcoming periodic tests or entrance exams; The content of the curriculum follows the trend of teaching and developing competence. This is the inevitable trend and the aim of education.</p>
+                            <ul>
+                                <h5>Previous lock achieved</h5>
+                                <li>More than 50 students scored 5.0 IELTS or higher, 25 achieved 5.5-6.5 and 15 achieved 7.0+</li>
+                                <li>More than 80 students achieved 500 TOEIC or more, of which 30 achieved 700+</li>
+                                <li>90% of students at the Academy pass Cambridge Certificate of B1 / B2 (PET / FCE) after 1 course</li>
+                            </ul>
+                        </div>
+                        <div class="personal-information">
+                            <ul>
+                                <li style="color: #fce8f3;">
+                                    
+                                    <span class="box">
+                                        70%
+                                    </span>
+                                    <b>ENGLISH</b>
+                                </li>
+                                <li style="color:#f4edf6">
+                                    <span class="box box1">
+                                        80%
+                                    </span>
+                                    <b>MANAGEMENTS</b>
+                                </li>
+                                <li style="color:#eff2f8">
+                                    <span class="box">
+                                        90%
+                                    </span>
+                                    <b>HARDWARE & SOFTWARE</b>
+                                </li>
+                                <li style="color:#eaf6fa">
+                                    <span class="box">
+                                        90%
+                                    </span>
+                                    <b>JAVA</b>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-network">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="banner-eng">
+                <ul class="list">
+                    <li>
+                        <div class="content">
+                            <p class="num">1000+</p>
+                            <p class="text">students are following</p>
+                        </div>
+                    </li>    
+                    <li>
+                        <div class="content">
+                            <p class="num" >50+</p>
+                            <p class="text">online lectures</p>
+                        </div>
+                    </li>    
+                    <li>
+                        <div class="content">
+                            <p class="num">7 +</p>
+                            <p class="text">years of experience</p>
+                        </div>
+                    </li>    
+                </ul>
+            </div>    
+        </div>
+        <div class="container">
+            <div class="heading">
+                <span>
+                    <i class="fa fa-star"></i>
+                </span>
+                <h2>OUR INSTRUCTORS</h2>
+                <p>MEET OUR PROFESSIONAL INSTRUCTORS</p>
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:30,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:4000,
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        300:{
+                            items:1
+                        },
+                        500:{
+                            items:2
+                        },
+                        750:{
+                            items:3
+                        },
+                        1100:{
+                            items:4
+                        }
+                    }
+                    })
+                });
+            </script>
+            <div class="ourteacher">
+                <div class="owl-carousel owl-theme">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/CYNTHIA JAMES.PNG" alt="CYNTHIA JAMES">
@@ -311,14 +451,12 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
+                        </div>                          
+                        <div class="teacher-info">
+                          <a href="./cynthia-james.html" title="CYNTHIA JAMES">CYNTHIA JAMES</a>
+                          <p>SCIENCE PROFESSOR - TECHNOLOGY</p>
+                        </div>
                     </div>
-                    <div class="teacher-info">
-                        <a href="./teacher-CYNTHIA-JAMES.html" title="CYNTHIA JAMES">CYNTHIA JAMES</a>
-                        <p>SCIENCE PROFESSOR - TECHNOLOGY</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/FATMA HASSAN.jpg" alt="FATMA HASSAN">
@@ -338,14 +476,12 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                        <a href="./teacher-FATMA-HASSAN.html" title="FATMA HASSAN">FATMA HASSAN</a>
-                        <p>TECHNOLOGY</p>    
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
+                        </div>                           
+                        <div class="teacher-info">
+                          <a href="./fatma-hassan.html" title="FATMA HASSAN">FATMA HASSAN</a>
+                          <p>TECHNOLOGY</p>    
+                        </div>
+                    </div>    
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/MARIA KELLY.jpg" alt="MARIA KELLY">
@@ -366,13 +502,11 @@
                                 </div>
                             </div>
                         </div>      
+                        <div class="teacher-info">
+                          <a href="./maria-kelly.html" title="MARIA KELLY">MARIA KELLY</a>
+                          <p>SCIENCE PROFESSOR</p>   
+                        </div>
                     </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-MARIA-KELLY.html" title="MARIA KELLY">MARIA KELLY</a>
-                            <p>SCIENCE PROFESSOR</p>   
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/XABI ALONSO.jpg" alt="XABI ALONSO">
@@ -393,19 +527,17 @@
                                 </div>
                             </div>
                         </div>      
+                        <div class="teacher-info">
+                          <a href="./xabi-alonso.html" title="XABI ALONSO">XABI ALONSO</a>
+                          <p>SCIENCE PROFESSOR</p>                     
+                        </div>
                     </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-XABI-ALONSO.html" title="XABI ALONSO">XABI ALONSO</a>
-                            <p>SCIENCE PROFESSOR</p>                     
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/WILLIAM HERRY.jpg" alt="WILLIAM HERRY">
                             <div class ="teacher-avatar_hover">
                                 <div class ="social-link">
-                                   <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
                                         <i class="fab fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://twitter.com/" alt="Twitter" target="_blank">
@@ -419,15 +551,12 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
+                        </div>                       
+                        <div class="teacher-info">
+                          <a href="./william-herry.html" title="WILLIAM HERRY">WILLIAM HERRY</a>
+                          <p>TECHNOLOGY</p>        
+                        </div>
                     </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-WILLIAM-HERRY.html" title="WILLIAM HERRY">WILLIAM HERRY</a>
-                            <p>TECHNOLOGY</p>
-                            
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/AMANDA MC MEELE.jpg" alt="AMANDA MEELE">
@@ -447,20 +576,18 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
+                        </div> 
+                        <div class="teacher-info">
+                          <a href="./amanda-meele.html" title="AMANDA MEELE">AMANDA MEELE</a>
+                          <p>SCIENCE PROFESSOR</p>
+                        </div>     
                     </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-AMANDA-MEELE.html" title="AMANDA MEELE">AMANDA MEELE</a>
-                            <p>TECHNOLOGY</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/ASHRAF BADRY.jpg" alt="ASHRAF BADRY">
+                             <img class = "img-fluid" src="./images/ASHRAF BADRY.jpg" alt="ASHRAF BADRY">
                             <div class ="teacher-avatar_hover">
                                 <div class ="social-link">
-                                   <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
                                         <i class="fab fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://twitter.com/" alt="Twitter" target="_blank">
@@ -474,14 +601,12 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-ASHRAF-BADRY.html" title="ASHRAF BADRY">ASHRAF BADRY</a>
-                            <p>SCIENCE PROFESSOR</p>     
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
+                        </div>
+                        <div class="teacher-info">
+                          <a href="./ashraf-badry.html" title="ASHRAF BADRY">ASHRAF BADRY</a>
+                          <p>TECHNOLOGY</p>  
+                        </div>    
+                    </div>   
                     <div class="teacher-item">
                         <div class="teacher-avatar">
                             <img class = "img-fluid" src="./images/STEPHEN JENKINGS.jpg" alt="STEPHEN JENKINGS">
@@ -501,104 +626,130 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>      
+                        </div>
+                        <div class="teacher-info">
+                            <a href="./stephen-jenkings.html" title="STEPHEN JENKINGS">STEPHEN JENKINGS</a>
+                            <p>SCIENCE PROFESSOR</p>
+                        </div>
                     </div>
-                    <div class="teacher-info">
-                        <a href="./teacher-STEPHEN-JENKINGS.html" title="STEPHEN JENKINGS">STEPHEN JENKINGS</a>
-                        <p>SCIENCE PROFESSOR</p>
+                    <div class="teacher-item">
+                        <div class="teacher-avatar">
+                            <img class = "img-fluid" src="./images/KATHY FOSTER.jpg" alt="KATHY FOSTER">
+                            <div class ="teacher-avatar_hover">
+                                <div class ="social-link">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                        <i class="fab fa-google" aria-hidden="true"></i>
+                                    </a>
+                                </div>     
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                          <a href="./kathy-foster.html" title="KATHY FOSTER">KATHY FOSTER</a>
+                          <p>TECHNOLOGY</p>
+                        </div>
+                    </div>
+                    <div class="teacher-item">
+                        <div class="teacher-avatar">
+                            <img class = "img-fluid" src="./images/NICOLAS PETTER.jpg" alt="NICOLAS PETTER">
+                            <div class ="teacher-avatar_hover">
+                                <div class ="social-link">
+                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                        <i class="fab fa-google" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="teacher-info">
+                            <a href="./nicolas-petter.html" title="NICOLAS PETTER">NICOLAS PETTER</a>
+                            <p>SCIENCE PROFESSOR</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="item-defauld">
-            <ul>
-                <li class="col-item-defauld">
-                    <a href="./teacher-details2.html">
-                        <span>Next</span>
-                    </a>
-                </li>
-                <li style="background-color: #ffbd33;">
-                    <a href="./teacher-details.html">
-                        <span class="one-col">1</span>
-                    </a>
-                </li>
-                <li class="col1-item-defauld">
-                    <a href="./teacher-details2.html">
-                        <span>2</span>
-                    </a>
-                </li>
-            </ul>
+        <div class="movetotop">
+          <a href="#top">
+            <i class="fas fa-arrow-circle-up"></i>
+          </a>
         </div>
-    </div>
-	<br>
-	<br>
-   <!-- movetotop -->
-   <div class="movetotop">
-    <a href="#top">
-      <i class="fas fa-arrow-circle-up"></i>
-    </a>
-  </div>
-  <div class="footer-img__larger">
-    <div class="footer-img__larger-inner">
-      <img src="" alt="" class="img-footer-larger" />
-      <div class="close__imglarger">
-        <i class="fas fa-times-circle"></i>
-      </div>
-      <div class="larger-btns">
-        <i class="fa fa-chevron-left btn-prev-larger"></i>
-        <i class="fas fa-th-large btn-larger-gallery"></i>
-        <i class="fa fa-chevron-right btn-next-larger"></i>
-      </div>
-    </div>
-    <div class="larger-list__img">
-      <div class="larger-list__img-inner">
-        <div class="close__larger-img">
-          <i class="fa fa-times"></i>
+        <div class="footer-img__larger">
+          <div class="footer-img__larger-inner">
+            <img src="" alt="" class="img-footer-larger" />
+            <div class="close__imglarger">
+              <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="larger-btns">
+              <i class="fa fa-chevron-left btn-prev-larger"></i>
+              <i class="fas fa-th-large btn-larger-gallery"></i>
+              <i class="fa fa-chevron-right btn-next-larger"></i>
+            </div>
+          </div>
+          <div class="larger-list__img">
+            <div class="larger-list__img-inner">
+              <div class="close__larger-img">
+                <i class="fa fa-times"></i>
+              </div>
+              <div class="color-header"></div>
+              <div class="gallery-larger-img">
+                <img
+                  src="assets/image/largerImg/largerimg1.jpg"
+                  alt="footerimg1"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg2.jpg"
+                  alt="footerimg2"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg3.jpg"
+                  alt="footerimg3"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg4.jpg"
+                  alt="footerimg4"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg5.jpg"
+                  alt="footerimg5"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg6.jpg"
+                  alt="footerimg6"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg7.jpg"
+                  alt="footerimg7"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg8.jpg"
+                  alt="footerimg8"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg9.jpg"
+                  alt="footerimg9"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="color-header"></div>
-        <div class="gallery-larger-img">
-          <img
-            src="assets/image/largerImg/largerimg1.jpg"
-            alt="footerimg1"
-          />
-          <img
-            src="assets/image/largerImg/largerimg2.jpg"
-            alt="footerimg2"
-          />
-          <img
-            src="assets/image/largerImg/largerimg3.jpg"
-            alt="footerimg3"
-          />
-          <img
-            src="assets/image/largerImg/largerimg4.jpg"
-            alt="footerimg4"
-          />
-          <img
-            src="assets/image/largerImg/largerimg5.jpg"
-            alt="footerimg5"
-          />
-          <img
-            src="assets/image/largerImg/largerimg6.jpg"
-            alt="footerimg6"
-          />
-          <img
-            src="assets/image/largerImg/largerimg7.jpg"
-            alt="footerimg7"
-          />
-          <img
-            src="assets/image/largerImg/largerimg8.jpg"
-            alt="footerimg8"
-          />
-          <img
-            src="assets/image/largerImg/largerimg9.jpg"
-            alt="footerimg9"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- footer -->
-<footer class="footer">
+	<footer class="footer">
         <div class="row-exe">
           <div class="footer-details">
             <div class="footer__logo">
@@ -722,6 +873,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="assets/js/login_form.js"></script>
     <script>
       var x = document.getElementById("login");
       var y = document.getElementById("register");
@@ -738,6 +890,5 @@
       }
     </script>
     <script src="assets/js/home.js"></script>
-  </body>
-</body>
+    </body>
 </html>

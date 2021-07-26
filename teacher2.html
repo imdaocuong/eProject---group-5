@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCIENCE PROFESSOR TEACHER</title>
+    <title>teacher-details2</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="teacher-details.css">
+    <link rel="stylesheet" href="teacher.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./icon-font/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="header.css">
     <link rel = "stylesheet" href = "./assets/css/base.css"></link>
     <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
     <link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
 </head>
 <body>
-	<header class="header">
+  <header class="header">
     <div class="row-exe">
       <!-- menu toggle -->
       <div class="menu__toggle">
@@ -107,7 +106,7 @@
                 <a href="event.html" class="header__nav-link">EVENTS</a>
               </li>
               <li class="header__nav-item">
-                <a href="teacher-details.html" class="header__nav-link">TEACHERS</a>
+                <a href="teacher.html" class="header__nav-link">TEACHERS</a>
               </li>
               <li class="header__nav-item">
                 <a
@@ -204,7 +203,7 @@
               <a href="event.html" class="mobile__nav-link">EVENTS</a>
             </li>
             <li class="mobile__nav-item">
-              <a href="./teacher-details.html" class="mobile__nav-link">TEACHERS</a>
+              <a href="./teacher.html" class="mobile__nav-link">TEACHERS</a>
             </li>
             <li class="mobile__nav-item">
               <a
@@ -226,18 +225,20 @@
     </div>
   </header>
       <div class="overlay"></div>
+      <!-- ------------------- -->
+      <!-- small info -->
       <div class="small-info">
         <div class="row-exe">
           <a href="mailto:infoacademica@gmail.com" class="small-info__email">
             <i class="fab fa-telegram-plane"></i>
-            <span>EXCELLENTCOACHING@gmail.com</span>
+            <span>support@excellentcoaching.com</span>
           </a>
           <p class="calendar-info">
             <i class="far fa-clock"></i>
             <span>MON - SAT: 9:00 - 18:00</span>
           </p>
         </div>
-      </div> 
+      </div>
     <div class="container-fluid">
         <div class="pages__title">
             <div class="pages__title-top">
@@ -245,33 +246,29 @@
                     <p>OUR TEACHER</p>
                 </div> 
                 <div class="pages__title-right">
-                    <a href="index.html" class="back-home">
+                    <a href="./index.html" class="back-home">
                         <i class="fa fa-home"></i>
                     </a>
-                        <i class="fa fa-chevron-right"></i>
-                    <a href="./teacher-details.html" class="Ourteacher"> 
-                    <span>OUR TEACHER</span>
-                    </a>
                     <i class="fa fa-chevron-right"></i>
-                    <span style="font-size: 13px; margin-left: 10px;">SCIENCE PROFESSOR</span>
+                    <span>OUR TEACHER</span>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="catalog-filter-subject">
-            <p>SHOWING 1-6 OF 6 RESULTS</p>
+            <p>SHOWING 9-10 OF 10 RESULTS</p>
             <span>
                 <label>
                     <select id='menu'>
-                        <option value="SCIENCE PROFESSOR">
-                            <a href="./SCIENCE-PROFESSOR-TEACHER.html">SCIENCE PROFESSOR</a>
-                        </option>
                         <option value="ALL TEACHER">
-                            <a href="./teacher-details.html">ALL TEACHER</a>
+                            <a href="./teacher.html">ALL TEACHER</a>
+                        </option>
+                        <option value="SCIENCE PROFESSOR">
+                            <a href="./teachers/science-professor.html">SCIENCE PROFESSOR</a>
                         </option>
                         <option value="TECHNOLOGY">
-                            <a href="./TECHNOLOGY-TEACHER.html">TECHNOLOGY</a>
+                            <a href="./teachers/technology.html">TECHNOLOGY</a>
                         </option>
                     </select>
                 </label>
@@ -281,125 +278,44 @@
             document.getElementById('menu').addEventListener('change', function() {
                 val = $( "#menu" ).val();     
                 console.log(val)
-                if(val === 'ALL TEACHER'){
+                if(val === 'ALL TEACHER') {
                     window.open('./teacher-details.html', '_self');
-                }
+                    }
                 if(val === 'SCIENCE PROFESSOR') {
-                    window.open('./SCIENCE PROFESSOR-TEACHER.html', '_self');
+                    window.open('./teachers/science-professor.html', '_self');
                     }
                 if(val === 'TECHNOLOGY') {
-                    window.open('./TECHNOLOGY-TEACHER.html', '_self');
+                    window.open('./teachers/technology.html', '_self');
                 }
                 });
         </script>
-         <div class="teacher-list">
+        <div class="teacher-list">
             <div class="row">
                 <div class="col-12 col-md-6 col-sm-6 col-xl-3">
                     <div class="teacher-item">
                         <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/CYNTHIA JAMES.PNG" alt="CYNTHIA JAMES">
+                            <img class = "img-fluid" src="./images/KATHY FOSTER.jpg" alt="KATHY FOSTER">
                             <div class ="teacher-avatar_hover">
                                 <div class ="social-link">
                                     <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                        <i class="fab fa-google" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>      
                     </div>
                     <div class="teacher-info">
-                        <a href="./teacher-CYNTHIA-JAMES.html" title="CYNTHIA JAMES">CYNTHIA JAMES</a>
-                        <p>SCIENCE PROFESSOR - TECHNOLOGY</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
-                    <div class="teacher-item">
-                        <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/MARIA KELLY.jpg" alt="MARIA KELLY">
-                            <div class ="teacher-avatar_hover">
-                                <div class ="social-link">
-                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-MARIA-KELLY.html" title="MARIA KELLY">MARIA KELLY</a>
-                            <p>SCIENCE PROFESSOR</p>   
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
-                    <div class="teacher-item">
-                        <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/STEPHEN JENKINGS.jpg" alt="STEPHEN JENKINGS">
-                            <div class ="teacher-avatar_hover">
-                                <div class ="social-link">
-                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-STEPHEN-JENKINGS.html" title="STEPHEN JENKINGS">STEPHEN JENKINGS</a>
-                            <p>SCIENCE PROFESSOR</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
-                    <div class="teacher-item">
-                        <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/XABI ALONSO.jpg" alt="XABI ALONSO">
-                            <div class ="teacher-avatar_hover">
-                                <div class ="social-link">
-                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-XABI-ALONSO.html" title="XABI ALONSO">XABI ALONSO</a>
-                            <p>SCIENCE PROFESSOR</p>                     
+                        <a href="./kathy-foster.html" title="KATHY FOSTER">KATHY FOSTER</a>
+                         <p>TECHNOLOGY</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-sm-6 col-xl-3">
@@ -409,57 +325,50 @@
                             <div class ="teacher-avatar_hover">
                                 <div class ="social-link">
                                     <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                        <i class="fab fa-google" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>      
                     </div>
                     <div class="teacher-info">
-                            <a href="./teacher-NICOLAS-PETTER.html" title="NICOLAS PETTER">NICOLAS PETTER</a>
-                            <p>SCIENCE PROFESSOR</p>
-                            
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-sm-6 col-xl-3">
-                    <div class="teacher-item">
-                        <div class="teacher-avatar">
-                            <img class = "img-fluid" src="./images/ASHRAF BADRY.jpg" alt="ASHRAF BADRY">
-                            <div class ="teacher-avatar_hover">
-                                <div class ="social-link">
-                                    <a href="https://www.facebook.com/" alt="facebook" target="_blank">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://twitter.com/" alt="Twitter" target="_blank">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.google.com.vn/" alt ="google" target="_blank">
-                                        <i class="fa fa-google" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>      
-                    </div>
-                    <div class="teacher-info">
-                            <a href="./teacher-ASHRAF-BADRY.html" title="ASHRAF BADRY">ASHRAF BADRY</a>
-                            <p>SCIENCE PROFESSOR</p>             
+                      <a href="./nicolas-petter.html" title="NICOLAS PETTER">NICOLAS PETTER</a>
+                      <p>SCIENCE PROFESSOR</p>              
                     </div>
                 </div>
             </div>
         </div>
+        <div class="item-defauld">
+            <ul>
+                <li class="col-item-defauld">
+                    <a href="./teacher.html">
+                        <span>PREVIOUS</span>
+                    </a>
+                </li>
+                <li class="col1-item-defauld">
+                    <a href="./teacher.html">
+                        <span>1</span>
+                    </a>
+                </li>
+                <li style= "background-color: #ffbd33">
+                    <a href="./teacher2.html">
+                        <span class="two-col">2</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
+    <br>
+    <br>
     <div class="movetotop">
       <a href="#top">
         <i class="fas fa-arrow-circle-up"></i>
@@ -524,7 +433,7 @@
         </div>
       </div>
     </div>
-<footer class="footer">
+    <footer class="footer">
         <div class="row-exe">
           <div class="footer-details">
             <div class="footer__logo">
@@ -640,7 +549,6 @@
           </div>
         </div>
       </footer>
-    </section>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -648,7 +556,6 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="assets/js/slider.js"></script>
-    <script src="assets/js/login_form.js"></script>
     <script>
       var x = document.getElementById("login");
       var y = document.getElementById("register");
@@ -665,6 +572,5 @@
       }
     </script>
     <script src="assets/js/home.js"></script>
-  </body>
 </body>
 </html>
