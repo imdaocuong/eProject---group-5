@@ -36,9 +36,22 @@ option {
   width: 40px;
   background-color: orange;
 }
+.course-name{
+  font-family: "Oswald";
+  font-size: 18px;
+}
 #detail {
   padding-top: 20px;
 }
+#detail button{
+  font-size: 14px;;
+}
+#detail p{
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  color: #868686  ;
+}
+
 #course-button {
   width: 150px;
   height: 40px;

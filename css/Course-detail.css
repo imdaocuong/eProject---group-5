@@ -225,11 +225,19 @@
            height: max-content;
        }
        .row{
-           max-width: 1200px;
-                     
-        
+           max-width: 1200px;  
        }
-       
+       .row th{
+           font-family: "Roboto";
+           font-size: 18px;
+       }
+       .row td{
+           font-family: "Roboto Condensed";
+           font-size: 15px;
+       }
+       .row p{
+           color: #686868;
+       }
        .hidden_row {
         display: none;
     }
