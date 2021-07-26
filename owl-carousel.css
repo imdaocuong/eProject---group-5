@@ -45,38 +45,6 @@
     margin: 0 auto;
     margin-top: 30px;
 }
-<<<<<<< HEAD
-.ourteacher-item{
-    text-align: center;
-}
-.ourteacher{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-.teacher-avatar img{
-    height: 270px;
-}
-.teacher-info{
-    text-align: center;
-}
-.teacher-info a{
-    font-size: 1.1rem;
-    color: #222222;
-    font-family: 'oswald',sans-serif;
-}
-.teacher-info a:visited{
-        color: #222222;
-        text-decoration: none;
-}
-.teacher-info a:hover{
-    text-decoration: none;
-    color: #9261aa;
-}
-.teacher-info p{
-    color: #868686;
-}
-=======
 .ourteacher{
    padding: 30px 0;
 }
@@ -159,14 +127,10 @@
     text-decoration: none;
 }
 
->>>>>>> 40bb8a1bceaa3e8342b76cd7ea257ca5950e914b
 @media screen and(max-width:750px){
     .Social-Network li{
         font-size: 14px;
     }
-<<<<<<< HEAD
-    
-=======
     .Social-Network{
         position: absolute;
         top: 50%;
@@ -255,6 +219,5 @@
         /* margin-left: 6px; */
         font-size: 14px;
     }
->>>>>>> 40bb8a1bceaa3e8342b76cd7ea257ca5950e914b
 }
 
