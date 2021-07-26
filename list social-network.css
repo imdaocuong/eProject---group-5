@@ -1,0 +1,81 @@
+.ourteacher-item{
+    max-width: 100%;
+}
+.Social-Network li{
+    display: inline-block;
+}
+.Social-Network li a{
+    font-size: 18px;
+}
+.teacher-list-network img{
+    height: 255px;
+    max-width: 100%;
+}
+.teacher-list-network{
+    position: relative;
+    height: 255px;
+    max-width: 100%;
+    display: inline-block;
+}
+.teacher-list-network::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#9261aa60;
+    z-index: 2;
+    display: none;
+}
+.teacher-list-network:hover::after{
+    display: block;
+}
+.teacher-list-network a img{
+    display: block;
+    height: 255px;
+    max-width: 100%;
+}
+.Social-Network li{
+    text-align: center;
+}
+.Social-Network{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    z-index: 3;
+}
+.teacher-list-network:hover .Social-Network{
+    opacity: 0.6;
+}
+.Social-Network li{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(209, 213, 218);
+    line-height: 28px;
+}
+.Social-Network li:hover a{
+    color: #fff;
+}
+
+
+@media  screen and(max-width: 500px) {
+    .teacher-list-network a img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media screen and(max-width: 250px){
+    .teacher-list-network a img{
+        width: 160px;
+        height: 160px;
+    }
+    .Social-Network li {
+        /* margin-left: 6px; */
+        font-size: 14px;
+    }
+}

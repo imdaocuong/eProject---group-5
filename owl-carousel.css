@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.footer{
+    background-color:rgb(241, 238, 238);
+    padding-top: 30px;
+    font-family: 'Roboto',sans-serif;
+}
+.heading{
+    text-align: center; 
+}
+.heading p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #494949;
+}
+.heading span{
+    font-size: 0.8rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: rgb(243, 215, 54);
+}
+.heading span::before{
+    right: 13px;
+    content: "\f005";
+    font-family:"FontAwesome";
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+}
+.heading span::after{
+    left: 13px;
+    content: "\f005";
+    font-family:"FontAwesome";
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+}
+.heading::after{
+    content: " ";
+    display: block;
+    border-bottom: 2px solid hsl(46, 88%, 61%);
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.ourteacher-item{
+    text-align: center;
+}
+.ourteacher{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.teacher-avatar img{
+    height: 270px;
+}
+.teacher-info{
+    text-align: center;
+}
+.teacher-info a{
+    font-size: 1.1rem;
+    color: #222222;
+    font-family: 'oswald',sans-serif;
+}
+.teacher-info a:visited{
+        color: #222222;
+        text-decoration: none;
+}
+.teacher-info a:hover{
+    text-decoration: none;
+    color: #9261aa;
+}
+.teacher-info p{
+    color: #868686;
+}
+@media screen and(max-width:750px){
+    .Social-Network li{
+        font-size: 14px;
+    }
+    
+}
+
