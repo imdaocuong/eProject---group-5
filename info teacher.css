@@ -1,14 +1,11 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 body{
     font-family: 'Roboto',sans-serif;
     font-size: 14px;
 }
 .container{
     margin-top: 40px;
+    width: 90%;
 }
 .top-left-img{
     background: rgb(55, 55, 56);
@@ -23,6 +20,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    display:inline-block;
 }
 .bottom-left-info{
     background: rgb(50, 59, 71);
@@ -34,12 +32,18 @@ body{
 .title-name p{
     font-size: 14px;
 }
-.information p{
+.paragraph p{
     font-size: 13px;
 }
-.information ul li{
+.paragraph ul{
+    padding-left: 0;
     list-style: none;
+}
+.paragraph ul li{
     font-size: 13px;
+}
+.personal-info{
+    padding-left: 0;
 }
 .personal-info li{
     display: block;
@@ -68,6 +72,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    text-decoration: none;
 }
 .social-network ul li a:visited{
     text-decoration: none;
@@ -85,12 +90,12 @@ body{
 .text{
     width: 100%;
 }
+.personal-information ul{
+    padding-left: 0;
+}
 .personal-information ul li{
     border-bottom: 15px solid ;
-    display: block;
-    margin: 0;
-    padding: 0;
-    
+    display: block;    
     margin-top: 15px;
 }
 .personal-information ul li b{
@@ -105,6 +110,7 @@ body{
     margin-top: -8px;
     right: 1rem;
     border-radius: 5px;
+    
 }
 .box:before {
     border-left: 6px solid transparent;
@@ -119,7 +125,7 @@ body{
     display: none;
 }
 .banner-eng{
-    background-image: url("/images/mon-anh.jpg");
+    background-image: url("./images/mon-anh.jpg");
     min-height: 200px;
     width: 100%;
     color: white;
@@ -129,7 +135,7 @@ body{
     margin-top: 30px;
 }
 .banner-math{
-    background-image: url("/images/mon-toan.jpg");
+    background-image: url("./images/mon-toan.jpg");
     background-size: cover;
     min-height: 200px;
     width: 100%;
