@@ -1,3 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.row{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 p {
   font-family: "Roboto";
   color: #868585;
@@ -53,8 +63,8 @@ option {
 }
 
 #course-button {
-  width: 150px;
-  height: 40px;
+  width: 100px;
+  height: 20px;
 }
 #course-detail {
   margin-bottom: 20px;
