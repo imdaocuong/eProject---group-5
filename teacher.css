@@ -137,7 +137,7 @@ select{
 .catalog-filter-subject{
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 8px 20px;
     background: #30a8cc;
     color: white;
     margin: 0 auto;
@@ -155,6 +155,7 @@ margin-bottom: 0;
 }
 #menu{
     color: #fff;
+    margin-right:60px;
 }
 #menu option{
     color: #333;
@@ -234,7 +235,7 @@ margin-bottom: 0;
     color: #222;
 }
 .teacher-info p{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: #868686;
     letter-spacing: 1px;
     margin-bottom: 0;
