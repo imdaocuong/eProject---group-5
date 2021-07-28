@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 p {
   font-family: "Roboto";
   color: #868585;
@@ -5,7 +10,7 @@ p {
 }
 .container .row{
   padding: 0;
-  margin: 40px 0px;
+  /* margin: 40px 0px; */
 }
 .topnav {
   background-color: #333;
@@ -100,7 +105,7 @@ option {
   transition: 1s;
   display: block;
   width: 100%;
-  height: auto;
+  height: 250px;
 }
 .row:hover .image-hover {
   opacity: 0.8;

@@ -1,4 +1,3 @@
-
 // ---------------------------------
 // function chose and switch and open larger img in footer
     const btn__OpenLargerImg  = document.querySelectorAll(".footer__gallery img");
