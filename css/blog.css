@@ -66,7 +66,7 @@
     margin: 30px 40px;
 }
 .list a{
-    color: #868686;
+    color: black;
 }
 .list a:hover{
     color: #9261AA;
@@ -179,8 +179,9 @@
 }
 #post-detail p{
     font-family: "Roboto",sans-serif;
-    font-size: 13px ;
-    color: rgb(177, 177, 177);
+    font-size: 15px ;
+    color: #868686;
+    text-align: justify ;
     margin-bottom: 10px;
 }
 @media screen and (max-width:768px){

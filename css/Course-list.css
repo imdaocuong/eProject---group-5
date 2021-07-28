@@ -4,13 +4,14 @@
   padding: 0;
 }
 p {
-  font-family: "Roboto";
-  color: #868585;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  color: #868686;
   text-align: justify ;
 }
 .container .row{
   padding: 0;
-  /* margin: 40px 0px; */
+  margin: 20px 0px; 
 }
 .topnav {
   background-color: #333;
@@ -19,6 +20,7 @@ p {
 #top {
   height: 50px;
   background-color: #30a8cc;
+  margin: 7.5px;
 }
 #top p {
   margin-top: 13px;
@@ -37,8 +39,9 @@ p {
   border: none;
   color: white;
 }
-option {
+select  option {
   color: #333;
+  height: 50px;
 }
 .course-space {
   margin-top: 10px;
