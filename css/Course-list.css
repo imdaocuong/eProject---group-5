@@ -1,6 +1,11 @@
 p {
   font-family: "Roboto";
   color: #868585;
+  text-align: justify ;
+}
+.container .row{
+  padding: 0;
+  margin: 40px 0px;
 }
 .topnav {
   background-color: #333;
@@ -38,7 +43,7 @@ option {
 }
 .course-name{
   font-family: "Oswald";
-  font-size: 20px;
+  font-size: 24px;
 }
 #detail {
   padding-top: 20px;
@@ -117,9 +122,11 @@ option {
   color: white;
   position: absolute;
   z-index: 3;
-  top: 40%;
+  top: 45%;
   left: 25%;
+  font-size: 17px;
 }
+
 #course:hover {
   background-color: #ebd4f7;
 }
@@ -158,11 +165,7 @@ option {
   background-image: url("./HTML/1.jpg");
   height: max-content;
 }
-.row {
-  max-width: 1200px;
-  margin-bottom: 10px;
-  align-self: center;
-}
+
 .row #course1 {
   padding-top: 20px;
   padding-bottom: 20px;
