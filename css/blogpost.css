@@ -155,3 +155,10 @@
     background: #2c4762;
   color: white;
 }
+ul.breadcrumbs li+li:before{
+    font:14px;
+    content:"\f105";
+    display:inline;padding:0 15px;
+    font-size:13px;
+    vertical-align:middle;color:#fff;
+}

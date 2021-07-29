@@ -625,3 +625,9 @@
     .share-blog li{
         display: inline-block;
     }
+    ul.breadcrumbs li+li:before{
+        font:14px/1 FontAwesome;
+        content:"\f105";
+        display:inline;padding:0 15px;
+        font-size:13px;
+        vertical-align:middle;color:#fff;}

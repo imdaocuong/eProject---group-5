@@ -17,6 +17,12 @@ p {
   background-color: #333;
   overflow: hidden;
 }
+ul.breadcrumbs li+li:before{
+  font:14px/1 FontAwesome;
+  content:"\f105";
+  display:inline;padding:0 15px;
+  font-size:13px;
+  vertical-align:middle;color:#fff;}
 #top {
   height: 50px;
   background-color: #30a8cc;
