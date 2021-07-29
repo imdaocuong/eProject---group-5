@@ -5,8 +5,8 @@
             padding: 0px;;
         }
         p{
-            font-family: 'Roboto Condensed', sans-serif;
-            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
             text-align: justify;
         }
         .row h2{
@@ -333,7 +333,7 @@
      .bar-2 {width: 4%; height: 10px; background-color: goldenrod;}
      .bar-1 {width: 15%; height: 10px; background-color: goldenrod;}
     .average{
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald';
         color: black;
         font-size: 30px;
     }
