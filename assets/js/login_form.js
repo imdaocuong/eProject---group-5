@@ -8,13 +8,3 @@ btn_OpenEnroll.addEventListener("click",function(){
 btn_CloseEnroll.addEventListener("click",function(){
     enroll__inner.classList.remove("active");
 })
-
-const btn_OpenVideo = document.querySelector("#show-video");
-const video__inner  = document.querySelector(".video");
-const btn_CloseVideo = document.querySelector(".video");
-btn_OpenVideo.addEventListener("click",function(){
-    video__inner.classList.add("active");
-})
-btn_CloseVideo.addEventListener("click",function(){
-    video__inner.classList.remove("active");
-})
