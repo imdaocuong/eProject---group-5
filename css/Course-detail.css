@@ -626,8 +626,28 @@
         display: inline-block;
     }
     ul.breadcrumbs li+li:before{
-        font:14px/1 FontAwesome;
-        content:"\f105";
+        display: none;
+    }
+    ul.breadcrumbs i{
+        font:14px;
         display:inline;padding:0 15px;
         font-size:13px;
-        vertical-align:middle;color:#fff;}
+        vertical-align:middle;color:#fff;
+    }
+    @media screen and (max-width:572px){
+        .reviewer_img{
+            margin-left: 10px;
+        }
+        .name_date h4{
+            margin-bottom: 0px;
+        }
+        .name_date p{
+        
+        }
+        .review_rate {
+            margin-left: 0px;
+        }
+        .name_date{
+            flex-direction: column;
+        }
+    }
