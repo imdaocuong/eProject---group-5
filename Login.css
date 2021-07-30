@@ -169,3 +169,18 @@ p{
 h5{
     font-family: 'Oswald',sans-serif;
 }
+@media screen and (max-width:780px){
+    .item_social p{
+        font-size: 12px;
+    }
+    .social-link li{
+        margin-left: 0px;
+        
+    }
+    .social-link li a i{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+}
