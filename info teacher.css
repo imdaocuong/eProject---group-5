@@ -1,37 +1,47 @@
-
+/* ===== body ===== */
 body{
     font-family: 'Roboto',sans-serif;
     font-size: 14px;
 }
+/* ===== TEACHER-DETAILS ===== */
 .container{
     margin-top: 40px;
     width: 90%;
 }
+/* ----- teacher-avatar ----- */
 .top-left-img{
     background: rgb(55, 55, 56);
     color: white;
     text-align: center;
     padding: 10px 0;
 }
+/* ----- Teacher-name ----- */
 .top-left-img h3{
     color: #fff;
 }
+/* set__teacher-avatar */
 .top-left-img img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     display:inline-block;
 }
+/* -----Teacher-info ----- */
 .bottom-left-info{
     background: rgb(50, 59, 71);
     color: white;
 }
+/* title__teacher-name */
 .title-name h3{
     font-size: 38px;
 }
+/* Teacher-info text */
 .title-name p{
     font-size: 14px;
 }
+/* -----Teaching methods ----- */
+
+/* Teaching methods text */
 .paragraph p{
     font-size: 13px;
 }
@@ -55,10 +65,15 @@ body{
     border-radius: 50%;
     text-align: center;
 }
+/* set icon */
+.social-network ul{
+    margin-top: 30px;
+}
 .social-network ul li{
     display: inline-block;
     margin-left: 10px;
 }
+/* set link icon */
 .social-network ul li a{
     font-family: "FontAwesome";
     display: inline-block;
@@ -83,9 +98,6 @@ body{
     text-decoration: none;
     color: white;
     background:#9261aa;
-}
-.social-network ul{
-    margin-top: 30px;
 }
 .text{
     width: 100%;
@@ -124,16 +136,18 @@ body{
 .owl-nav{
     display: none;
 }
+/* ----- Banner ----- */
 .banner-eng{
     background-image: url("./images/mon-anh.jpg");
     min-height: 200px;
     width: 100%;
     color: white;
-    
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
+/* ----- Banner ----- */
 .banner-math{
     background-image: url("./images/mon-toan.jpg");
     background-size: cover;
@@ -145,10 +159,20 @@ body{
     justify-content: center;
     margin-top: 30px;
 }
+.list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+/* content banner */
 .content{
     margin-top: 50px;
     text-align: center;
 }
+/* parameter */
 .num{
     text-align: center;
     font-weight: bold;
@@ -166,15 +190,7 @@ body{
 .text{
     text-transform: uppercase;
 }
-.list{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    list-style: none;
-    flex-wrap: wrap;
-    font-size: 14px;
-    
-}
+
 .container-fluid{
     margin: 0;
     padding: 0 !important;
