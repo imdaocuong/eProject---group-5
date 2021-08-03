@@ -247,7 +247,7 @@ margin-bottom: 0;
     color: #222;
 }
 .teacher-info p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #868686;
     letter-spacing: 1px;
     margin-bottom: 0;
@@ -367,3 +367,6 @@ h5{
     color: #9261aa;
 }
 
+.nav-child__list li a:hover{
+    text-decoration: none;
+}

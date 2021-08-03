@@ -18,6 +18,7 @@ body{
 /* ----- Teacher-name ----- */
 .top-left-img h3{
     color: #fff;
+    margin-top: 5px;
 }
 /* set__teacher-avatar */
 .top-left-img img{
@@ -25,6 +26,10 @@ body{
     height: 200px;
     border-radius: 50%;
     display:inline-block;
+}
+.top-left-img p{
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 /* -----Teacher-info ----- */
 .bottom-left-info{
@@ -43,21 +48,18 @@ body{
 
 /* Teaching methods text */
 .paragraph p{
-    font-size: 13px;
+    font-size: 12px;
 }
 .paragraph ul{
-    padding-left: 0;
-    list-style: none;
+    list-style-type:disc;
+    margin-left: 40px;
 }
 .paragraph ul li{
-    font-size: 13px;
-}
-.personal-info{
-    padding-left: 0;
+    font-size: 12px;
 }
 .personal-info li{
-    display: block;
-    padding-top: 20px
+    padding-top: 10px;
+    font-size: 12px;
 }
 .personal-info li i{
     width: 24px;
@@ -67,23 +69,23 @@ body{
 }
 /* set icon */
 .social-network ul{
-    margin-top: 30px;
+    text-align: right;
+    margin-right: 5px;
 }
 .social-network ul li{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
+    padding-bottom: 5px;
 }
 /* set link icon */
 .social-network ul li a{
     font-family: "FontAwesome";
-    display: inline-block;
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
+    font-size: 16px;
+    width: 26px;
+    height: 26px;
     border: 1px solid rgb(121, 120, 120);
     border-radius: 50%;
-    line-height: auto;
-    line-height: 30px;
+    line-height: 26px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -91,7 +93,7 @@ body{
 }
 .social-network ul li a:visited{
     text-decoration: none;
-    color: rgb(88, 87, 87);
+    color: #fff;
 }
 .social-network ul li a:hover{
     border-color: transparent;
@@ -201,6 +203,10 @@ h2{
     font-size: 38px;
 }
 h3{
+    font-family: 'Oswald',sans-serif;
+    color: #222222;
+}
+h4{
     font-family: 'Oswald',sans-serif;
     color: #222222;
 }
