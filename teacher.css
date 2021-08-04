@@ -332,7 +332,8 @@ h5{
     
     .pages__title-left{
         text-align: left;
-        padding-left: 4rem;
+        padding-left: 2rem;
+        flex-wrap: nowrap;
     }
     .pages__tiile-top .pages__title-left{
         width: 100%!important;
@@ -368,5 +369,11 @@ h5{
 }
 
 .nav-child__list li a:hover{
+    text-decoration: none;
+}
+a.mobile__nav-child-link:hover{
+    text-decoration: none;
+}
+.mobile__nav-link:hover{
     text-decoration: none;
 }
