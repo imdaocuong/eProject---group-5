@@ -92,6 +92,11 @@ body{
     letter-spacing: 3px;
     font-weight: 400;
 }
+.pages__title-right .name-teacher{
+    font-size: 12px;
+    margin-left: 8px;
+
+}
 /* icon home */
 .pages__title-right a.back-home{
     color: white;
@@ -113,24 +118,6 @@ body{
 .name-details:hover{
     text-decoration: none;
 }
-@media only screen and (max-width: 780px){
-    .header__top{
-        flex-wrap: wrap;
-    }
-    .header__top-left{
-        text-align: left;
-    }
-    .header__top >*{
-        width: 100%;
-        padding-left: 1.5rem;
-        padding-left: 1.5rem;
-    }
-
-    .header__top-left::after,.header__top-right::after{
-        display: none;
-    }
-}
-
 
 /* ===== CATALOG-FILTER-SUBJECT ===== */
 select{
@@ -325,16 +312,10 @@ h3{
 h5{
     font-family: 'Oswald',sans-serif;
 }
-@media only screen and (max-width: 780px){
+@media screen and (max-width: 780px){
     .pages__title-top{
         flex-wrap: wrap;
-    }
-    
-    .pages__title-left{
-        text-align: left;
-        padding-left: 2rem;
-        flex-wrap: nowrap;
-    }
+    }  
     .pages__tiile-top .pages__title-left{
         width: 100%!important;
         padding-left: 1.5rem;
@@ -342,27 +323,44 @@ h5{
     .pages__title-right span{
        max-width: 100%;
     }
-    .pages__title-left::after,.pages__title-right::after{
-        display: none;
-    }
 }
-@media only screen and (max-width:576px){
+@media only screen and (max-width:585px){
     .pages__title-top{
-    flex-wrap:wrap;
+        flex-wrap:wrap;
+    }
+    .pages__title-top span{
+        font-size: 13px;
+        margin: 2px;
+    }
+    .pages__title-top .name-teacher{
+       font-size: 9px;
+       margin: 2px;
     }
     .pages__title-top >*{
     flex-basis:100%;
+    padding: 0;
     }
     .pages__title-left::after,.pages__title-right::after{
     display:none;
     }
+    .pages__title-left p{
+        font-size: 18px;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 577px){
+    .pages__title-left{
+        width: 40%;
+    }
+    .pages__title-left p{
+        font-size: 18px;
+        flex-wrap: nowrap;
+    }
 }
 
-    .header__nav-item .header__nav-link:hover{
-        text-decoration: none;
-    }
-
-
+.header__nav-item .header__nav-link:hover{
+    text-decoration: none;
+}
 .small-info__email:hover{
     text-decoration: none;
     color: #9261aa;
